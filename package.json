@@ -1,0 +1,31 @@
+{
+  "name": "aprendendo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "aprendendo node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app"
+},
+  "author": "vania",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0",
+    "mssql": "^4.2.2",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "database-cleaner": "^1.2.0"
+  }, 
+  "engines":{
+    "node" : "8.12.0"
+  }
+}
